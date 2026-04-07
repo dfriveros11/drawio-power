@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "drawio-architect-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "drawio-architect-mcp"
+      ],
+      "autoApprove": [
+        "create_diagram",
+        "add_node",
+        "add_connection",
+        "add_group",
+        "add_page",
+        "add_legend",
+        "edit_node",
+        "edit_edge",
+        "remove_node",
+        "set_cell_shape",
+        "set_cell_data",
+        "create_layer",
+        "move_cell_to_layer",
+        "list_layers",
+        "read_diagram",
+        "list_aws_shapes",
+        "validate_diagram",
+        "fix_diagram"
+      ]
+    }
+  }
+}
